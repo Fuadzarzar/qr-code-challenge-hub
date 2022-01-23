@@ -72,5 +72,13 @@ h2 {
 @media screen and (max-aspect-ratio: 1/1) {
     body {
         min-width: 375px;
+        background-color: red;
+        transform: scale(1);
+
+    }
+}
+@media screen and (min-width: 768px) {
+    body {
+        transform: scale(0.9);
     }
 }
